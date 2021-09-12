@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   
+    <title>Cuentas</title>
+
+</head>
+<body>
+  <header>
+    <center><h1>Pagina de prueba para el servidor</h1>
+	</header
+  <section>
+	<button><a href="informacion.html">Informaciones</button></a>
+	<button><a href="descargas.html">Descargas</button></a>
+	<button><a href="cuentas.html">Cuentas</button></a>
+	<button><a href="donas.html">Donaciones</button></a>
+	<button><A href="contacto.html">Contacto</A></button>
+
+<hr>
+    <h1>Creacion de Cuentas</h1>
+    <form action="/cuentas" method="POST">
+        <label for="nombre">Usuario</label>
+        <input id="nombre" name="Nombre" placeholder="Id De Cuenta"/><br>
+
+        <label for="pass">Contraseña</label>
+          <input id="pass" type="password" name="password" placeholder="Password" /><br>
+        <label for="pass">Repetir Contraseña</label>
+          <input id="pass" type="password" name="password" placeholder="Password" /><br>
+        <label for="mail"> Email </label>
+          <input id="Mail" type="email" name="email" placeholder="Direccion de mail"/><br>
+          
+          
+          <label for="condi">De acuerdo con terminos y condiciones</label>
+                <input id="condi" name="condi"type="checkbox" /><br>
+                <button><a href="Terminos.html">Terminos y condiciones</a></button><br>
+                <button type="submit">Enviar</button>
+
+        <hr>
+        <h2>Cambio de Contraseña</h2>
+        <form>
+          <label for="vieja">Contraseña actual</label>
+          <input id="vieja" type="password" name="vieja" placeholder="contraseña actual"/><br>
+          <label for="nueva">Contraseña nueva</label>
+          <input id="nueva" name="nueva" placeholder="Contraseña nueva"/><br>
+          <label for="nueva2" >Repetir contraseña</label>
+          <input id="nueva2" name="nueva2" placeholder="Repetir contraseña"/><br>
+
+        
+        </form><br>
+        
+    </center>
+    </form>
+    
+</body>
+</html>
